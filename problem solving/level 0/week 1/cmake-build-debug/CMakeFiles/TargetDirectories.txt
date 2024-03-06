@@ -1,0 +1,3 @@
+C:/Users/tasnim/Desktop/problem solving/level 0/week 1/cmake-build-debug/CMakeFiles/level_0.dir
+C:/Users/tasnim/Desktop/problem solving/level 0/week 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tasnim/Desktop/problem solving/level 0/week 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

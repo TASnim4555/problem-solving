@@ -1,0 +1,3 @@
+C:/Users/tasnim/Desktop/problem solving/problem A in div2/div932/cmake-build-debug/CMakeFiles/div932.dir
+C:/Users/tasnim/Desktop/problem solving/problem A in div2/div932/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tasnim/Desktop/problem solving/problem A in div2/div932/cmake-build-debug/CMakeFiles/rebuild_cache.dir

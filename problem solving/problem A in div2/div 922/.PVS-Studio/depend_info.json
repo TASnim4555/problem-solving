@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "C:\\Program Files\\JetBrains\\CLion 2023.2.2\\bin\\mingw\\bin\\g++.exe",
+            "-g",
+            "-std=gnu++14",
+            "-fdiagnostics-color=always",
+            "-DPVS_STUDIO",
+            "C:\\Users\\tasnim\\Desktop\\problem solving\\problem A in div2\\div 922\\brick_wall.cpp"
+        ],
+        "dependencies": [],
+        "id": 1
+    }
+]
