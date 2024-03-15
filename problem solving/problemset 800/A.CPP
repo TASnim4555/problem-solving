@@ -1,5 +1,5 @@
 #include "iostream"
-
+#include "algorithm"
 using namespace std;
 void Make_Equal(){
     int n;
@@ -36,28 +36,43 @@ void recovering_string(){
     int n;
     cin>>n;
     int sum =n;
-    string s="";
-    int s1,s2,s3;
-    for(int i=1;i<=26;i++){
-        sum-=i;
-        s1=i;
-        for(int j=26;j>=1;j--){
-            sum-=j;
-            if(sum>0){
-                s2=j;
-                break;
-            }
-            else {
-                sum+=j;
-            }
+    string s ;
+    s= "";
+ if(n<=28){
+     s+="aa";
+     s+=char(((n-2)+'a')-1);
+ }
+ else if(n>28&&n<=52){
+     s+='a';
+     s+=char(((n-27)+'a')-1);
+     s+='z';
+ }
+ else{
+     s+=char(((n-52)-1)+'a');
+     s+="zz";
+ }
+ cout<<s<<"\n";
+}
+void rudolf_ticket(){
+    int n,m,k;
+    cin>>n>>m>>k;
+    int arr[n];
+    int arr2[m];
+    int cnt =0;
+    for(int i=0;i<n;i++) cin>>arr[i];
+    for(int j=0;j<m;j++) cin>>arr2[j];
+    int sum;
+    sum =0;
+    for(int i=0;i<n;i++){
+        sum+=arr[i];
+        for(int j=0;j<m;j++){
+            sum+=arr2[j];
+            if(sum<=k)cnt++;
+            sum-=arr2[j];
         }
-        sum+=i;
+        sum-=arr[i];
     }
-    s3=n-(s1+s2);
-    s+=char (s1);
-    s+=char (s2);
-    s+=char (s3);
-    cout<<s<<"\n";
+    cout<<cnt<<"\n";
 }
 int main(){
     int t;

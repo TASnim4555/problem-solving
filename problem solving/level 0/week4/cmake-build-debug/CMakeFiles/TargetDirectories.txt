@@ -1,0 +1,3 @@
+C:/Users/tasnim/Documents/GitHub/problem-solving/problem solving/level 0/week4/cmake-build-debug/CMakeFiles/week4.dir
+C:/Users/tasnim/Documents/GitHub/problem-solving/problem solving/level 0/week4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tasnim/Documents/GitHub/problem-solving/problem solving/level 0/week4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

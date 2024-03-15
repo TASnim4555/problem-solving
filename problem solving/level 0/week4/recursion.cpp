@@ -75,12 +75,29 @@ bool spells(long long s,long long d,int n,bool ck=false){
 
 
 }
-int main(){
-int n;
-cin>>n;
-long long s,d;
-cin>>s>>d;
+bool read_string(int w,string s){
+    if(w<0) return true;
 
-string answer = spells(s,d, n - 1) ? "Yes" : "No";
-cout<<answer<<"\n";
+        if(((w)%2!=0&&(s[w-s.size()]>='a'&&s[w-s.size()]<='z'))){
+    return read_string(w-1,s);
+        }
+        else if(((w)%2==0&&(s[w-s.size()]>='A'&&s[w-s.size()]<='Z'))){
+            return read_string(w-1,s);
+
+        }
+            return false;
+
+
+
+}
+int main(){
+
+string s;cin>>s;
+
+if(read_string(s.size(),s)){
+    cout<<"Yes"<<"\n";
+}
+else{
+    cout<<""<<"\n";
+}
 }
